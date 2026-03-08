@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TO-DO APP</title>
+<link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="newsletter-container">
+  <!-- Header -->
+  <div class="machine-header">
+    <h1>🕒 TO-DO List</h1>
+    <p>Manage your notes efficiently!</p>
+  </div>
+
+  <!-- Body -->
+  <div class="machine-body">
+    <button id="subscribe-btn"><i class="bx bx-plus"></i> Add new note 🚀</button>
+
+    <!-- Başlangıçta boş notes-wrapper -->
+    <div class="notes-wrapper"></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="machine-footer">
+    <p class="status-message"></p>
+    <div class="loading-bar"></div>
+  </div>
+</div>
+
+<!-- Popup -->
+<div class="popup-box">
+  <div class="popup">
+    <header>
+      <h1 id="popup-title">New Note</h1>
+      <i class="bx bx-x" id="close-popup"></i>
+    </header>
+    <form id="note-form">
+      <div class="fields">
+        <label for="title">Title</label>
+        <input type="text" id="title" required>
+      </div>
+      <div class="fields">
+        <label for="description">Description</label>
+        <textarea id="description" required></textarea>
+      </div>
+      <button type="submit" id="form-btn">Add</button>
+    </form>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
