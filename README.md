@@ -24,23 +24,13 @@
 <p>To run the project locally:</p>
 <ol>
   <li><strong>Clone the repository</strong>
-    <pre>git clone https://github.com/your-username/task-manager-app-js.git</pre>
+    <pre>git clone https://github.com/fundagungoralkan/task-manager-app-js.git</pre>
   </li>
   <li><strong>Navigate to the project folder</strong>
     <pre>cd task-manager-app-js</pre>
   </li>
   <li><strong>Open <code>index.html</code> in your browser</strong></li>
 </ol>
-
-<h2>Project Structure</h2>
-<pre>
-task-manager-app-js/
-├── index.html
-├── style.css
-├── main.js
-├── screenshot.png
-└── README.md
-</pre>
 
 <h2>Future Improvements</h2>
 <ul>
@@ -57,18 +47,3 @@ task-manager-app-js/
 <h2>License</h2>
 <p>This project is licensed under the <strong>MIT License</strong> – see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-<h2>Recommended GitHub Topics / Tags</h2>
-<p>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">JavaScript</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">HTML</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">CSS</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">To-Do</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">Task Manager</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">Productivity</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">Notes</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">Web App</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;margin-right:5px;">Responsive Design</span>
-  <span style="background:#3498db;color:#fff;padding:3px 10px;border-radius:15px;">Frontend</span>
-</p>
-
-<p>💡 Adding these topics to your repository increases visibility and makes it easier for others to discover your project.</p>
